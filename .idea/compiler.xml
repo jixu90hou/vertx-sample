@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for vertx-sample" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="codetrans.config" value="$PROJECT_DIR$/codetrans-config.json" />
+        <option name="codetrans.output" value="$PROJECT_DIR$/src/main" />
+        <module name="vertx-sample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="vertx-sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
